@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Glitch text generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body class="container" style="text-align: center;">
+    <h1 class="title">Glitch Text Generator</h1>
+    <div></div>
+    <div class="row" style="text-align: left;">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="box">
+          <textarea placeholder="Text goes here..." class="inputbox" id="in" onkeyup="generate()"></textarea>
+          <button class="smallbutton" onclick="generate()">Generate</button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="box">
+          <textarea placeholder="Ő︡r̵͎ ͕̎ğ̷ḷ͔i̖̿t̅ͭc᷂᷁ḫ͒y̹͌ ̷̢t̤̑e̞͒x͉᷃t̺ͭ ᷁͝gͭ̎o̺͗è̋s͏̐ ᷀͞h҅︠ẹ᷀r͑͏e͌͟.̬⃰.ͥ᷉.̭ͬ" class="inputbox" id="out" onkeyup="ungen()"></textarea>
+          <button class="smallbutton" onclick="copy()">Copy</button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <input onchange="generate()" type="range" min="1" max="100" value="50" style="width: 100%;" id="glitchamount">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
