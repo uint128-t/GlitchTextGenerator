@@ -1,0 +1,35 @@
+.inputbox{
+  font-size: auto;
+  border: none;
+  outline: none;
+  min-height: 500px;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  resize: none;
+  overflow-y:visible;
+}
+@media only screen and (max-width: 767.5px) {
+  .inputbox {
+    min-height: 200px;
+  }
+}
+.box{
+  border: 1px solid black;
+  /* padding: 10px; */
+}
+.smallbutton{
+  position: absolute;
+  display: block;
+  transform: translate(0,-100%);
+  text-align: right;
+}
+.title{
+  padding-top: 30px !important;
+  padding-bottom: 15px !important;
+}
+.placeholder{
+  position: absolute;
+  color: grey;
+  padding: 10px;
+}
